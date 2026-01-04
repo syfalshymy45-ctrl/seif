@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>موقع سيف - SEIF WEB</title>
+    <style>
+        /* التنسيقات العامة */
+        body { font-family: 'Segoe UI', Tahoma, sans-serif; margin: 0; background-color: #f4f4f9; color: #333; line-height: 1.6; }
+        
+        /* الهيدر والشعار */
+        header { background: #1a1a2e; color: #fff; padding: 1rem 5%; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 1000; box-shadow: 0 2px 10px rgba(0,0,0,0.3); }
+        .logo { font-size: 28px; font-weight: 800; color: #00d2ff; letter-spacing: 2px; }
+        .logo span { color: #fff; }
+        
+        nav a { color: white; margin-right: 20px; text-decoration: none; font-weight: 500; transition: 0.3s; }
+        nav a:hover { color: #00d2ff; }
+
+        /* الأقسام */
+        section { padding: 80px 10%; text-align: center; }
+        #about { background: #fff; }
+        .hero { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: white; padding: 100px 20px; }
+        
+        /* كروت الخدمات */
+        .services-container { display: flex; justify-content: center; gap: 25px; flex-wrap: wrap; margin-top: 40px; }
+        .service-card { background: white; padding: 30px; border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.05); width: 280px; transition: transform 0.3s; border-top: 5px solid #00d2ff; }
+        .service-card:hover { transform: translateY(-10px); }
+        
+        /* الفوتر */
+        footer { background: #1a1a2e; color: white; padding: 30px; text-align: center; border-top: 1px solid #333; }
+        .highlight { color: #00d2ff; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">SEIF<span>.WEB</span></div>
+    <nav>
+        <a href="#about">من أنا</a>
+        <a href="#services">خدماتي</a>
+        <a href="#contact">للتواصل</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>أهلاً بك في عالمي </h1>
+    <p>أنا <span class="highlight">SEIF</span>، مبرمج ومصمم واجهات أسعى لتحويل الأفكار إلى واقع ملموس.</p>
+</section>
+
+<section id="about">
+    <h2>من أنا</h2>
+    <p>أنا سيف، مبرمج شغوف ببناء مواقع الويب الحديثة. أركز دائماً على تقديم تصميمات مريحة للمستخدم وأكواد نظيفة واحترافية. هدفي هو مساعدة الأفراد والشركات على الظهور بأفضل صورة في الفضاء الرقمي.</p>
+</section>
+
+<section id="services">
+    <h2>خدماتي</h2>
+    <div class="services-container">
+        <div class="service-card">
+            <h3>تطوير المواقع</h3>
+            <p>بناء مواقع سريعة ومتجاوبة مع كافة الشاشات.</p>
+        </div>
+        <div class="service-card">
+            <h3>تصميم UI/UX</h3>
+            <p>تصميم واجهات مستخدم عصرية وجذابة.</p>
+        </div>
+        <div class="service-card">
+            <h3>استشارات تقنية</h3>
+            <p>تقديم الدعم الفني والحلول البرمجية المبتكرة.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>للتواصل</h2>
+    <p>يسعدني العمل معك! تواصل معي عبر:</p>
+    <p>البريد الإلكتروني: <span class="highlight">syfalshymy45.gmail.com</span></p>
+    <p>رقم الهاتف: <span class="highlight">+01113279207</span></p>
+</section>
+
+<footer>
+    <p>تم التصميم بكل حب بواسطة <span class="highlight"></span>سيف</span> &copy; 2026</p>
+</footer>
+
+</body>
+</html>
